@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri & Media - Restoran Nusantara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="navbar-wrapper">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">🌿</span>
+          <span class="logo-text"
+            >Restoran <span class="highlight">Nusantara</span></span
+          >
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="daftar-menu.html">Menu</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-container">
+        <div class="badge">Dokumentasi & Video</div>
+        <h1>Galeri Restoran Nusantara</h1>
+        <p>
+          Intip suasana restoran kami, proses penyajian hidangan, serta
+          momen-momen berkesan para pengunjung.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Video Section -->
+      <section class="menu-section" style="padding-bottom: 2rem">
+        <div class="section-title-area">
+          <span class="sub-heading">Video Profil</span>
+          <h2>Suasana & Dapur Nusantara</h2>
+          <p>
+            Saksikan kehangatan pelayanan dan proses pembuatan hidangan istimewa
+            kami
+          </p>
+        </div>
+
+        <div style="max-width: 500px; margin: 0 auto">
+          <div class="menu-card" style="overflow: hidden; padding: 0">
+            <video
+              controls
+              poster="./assets/ayam-bakar.webp"
+              style="width: 100%; display: block; border-radius: 12px"
+            >
+              <source src="./assets/video.mp4" type="video/mp4" />
+              Browser Anda tidak mendukung pemutaran video HTML5.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <!-- Photos Section -->
+      <section class="menu-section" style="padding-top: 2rem">
+        <div class="section-title-area">
+          <span class="sub-heading">Foto Dokumentasi</span>
+          <h2>Koleksi Hidangan & Suasana</h2>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Gallery Item 1 -->
+          <article class="menu-card">
+            <div class="card-image-wrap">
+              <img
+                src="./assets/nasi-goreng.webp"
+                alt="Nasi Goreng Spesial"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-content" style="padding: 1rem">
+              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                Nasi Goreng Spesial
+              </h3>
+              <p style="font-size: 0.875rem; color: #6b7280">
+                Sajian favorit dengan telur dadar dan ayam suwir.
+              </p>
+            </div>
+          </article>
+
+          <!-- Gallery Item 2 -->
+          <article class="menu-card">
+            <div class="card-image-wrap">
+              <img
+                src="./assets/ayam-bakar.webp"
+                alt="Ayam Bakar Bumbu Rempah"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-content" style="padding: 1rem">
+              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                Ayam Bakar Rempah
+              </h3>
+              <p style="font-size: 0.875rem; color: #6b7280">
+                Ayam pilihan dengan marinasi kecap dan rempah bakar.
+              </p>
+            </div>
+          </article>
+
+          <!-- Gallery Item 3 -->
+          <article class="menu-card">
+            <div class="card-image-wrap">
+              <img
+                src="./assets/mie-ayam.webp"
+                alt="Mie Ayam Spesial"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-content" style="padding: 1rem">
+              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                Mie Ayam Spesial
+              </h3>
+              <p style="font-size: 0.875rem; color: #6b7280">
+                Mie kenyal dengan topping topping ayam gurih melimpah.
+              </p>
+            </div>
+          </article>
+
+          <!-- Gallery Item 4 -->
+          <article class="menu-card">
+            <div class="card-image-wrap">
+              <img
+                src="./assets/es-teh.webp"
+                alt="Es Teh Manis Segar"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-content" style="padding: 1rem">
+              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                Es Teh Melati
+              </h3>
+              <p style="font-size: 0.875rem; color: #6b7280">
+                Minuman penyegar setelah menikmati hidangan utama.
+              </p>
+            </div>
+          </article>
+
+          <!-- Gallery Item 5 -->
+          <article class="menu-card">
+            <div class="card-image-wrap">
+              <img
+                src="./assets/jus.webp"
+                alt="Jus Buah Segar"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-content" style="padding: 1rem">
+              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                Jus Buah Murni
+              </h3>
+              <p style="font-size: 0.875rem; color: #6b7280">
+                Pilihan jus dari buah-buahan alami segar.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Address Section -->
+      <section class="address-section">
+        <div class="address-card">
+          <div class="address-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="address-info">
+            <h3>Lokasi Restoran</h3>
+            <p>Jl. Merdeka No. 456, Kab. Tangerang, Indonesia</p>
+            <span class="address-hours"
+              >Buka setiap hari: 09.00 - 22.00 WIB</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <p>
+          &copy; 2026 <strong>Restoran Nusantara</strong>. Hak Cipta Dilindungi.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
