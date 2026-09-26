@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Daftar menu lengkap hidangan khas Nusantara dan panduan 5 langkah mudah pemesanan makanan untuk dine-in maupun takeaway."
+    />
     <title>Daftar Menu & Cara Pemesanan - Restoran Nusantara</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/index.css" />
@@ -63,35 +67,50 @@
           <h3>Makanan Utama</h3>
           <ul class="text-menu-list">
             <li>
-              <strong>Nasi Goreng Spesial</strong> - Rp 20.000
+              <div class="text-menu-header">
+                <strong>Nasi Goreng Spesial</strong>
+                <span class="text-menu-price">Rp 20.000</span>
+              </div>
               <p>
                 Nasi goreng gurih dengan isian telur, ayam suwir, dan sayuran
                 segar.
               </p>
             </li>
             <li>
-              <strong>Ayam Bakar Nusantara</strong> - Rp 25.000
+              <div class="text-menu-header">
+                <strong>Ayam Bakar Nusantara</strong>
+                <span class="text-menu-price">Rp 25.000</span>
+              </div>
               <p>
                 Ayam bakar bumbu olahan rempah khas disajikan lengkap dengan
                 sambal terasi.
               </p>
             </li>
             <li>
-              <strong>Mie Ayam Gurih</strong> - Rp 15.000
+              <div class="text-menu-header">
+                <strong>Mie Ayam Gurih</strong>
+                <span class="text-menu-price">Rp 15.000</span>
+              </div>
               <p>
                 Mie kenyal lezat dengan topping olahan daging ayam manis gurih
                 yang melimpah.
               </p>
             </li>
             <li>
-              <strong>Soto Ayam Madura</strong> - Rp 18.000
+              <div class="text-menu-header">
+                <strong>Soto Ayam Madura</strong>
+                <span class="text-menu-price">Rp 18.000</span>
+              </div>
               <p>
                 Soto kuah kuning kaya rempah dengan irisan daging ayam, soun,
                 dan koya renyah.
               </p>
             </li>
             <li>
-              <strong>Rendang Sapi Khas Padang</strong> - Rp 30.000
+              <div class="text-menu-header">
+                <strong>Rendang Sapi Khas Padang</strong>
+                <span class="text-menu-price">Rp 30.000</span>
+              </div>
               <p>
                 Daging sapi empuk dengan bumbu santan dan rempah tradisional
                 yang meresap sempurna.
@@ -100,32 +119,44 @@
           </ul>
         </div>
 
-        <div class="menu-category" style="margin-top: 2rem">
+        <div class="menu-category">
           <h3>Minuman & Pencuci Mulut</h3>
           <ul class="text-menu-list">
             <li>
-              <strong>Es Teh Manis</strong> - Rp 5.000
+              <div class="text-menu-header">
+                <strong>Es Teh Manis</strong>
+                <span class="text-menu-price">Rp 5.000</span>
+              </div>
               <p>
                 Seduhan teh melati dingin segar yang memberikan kesegaran
                 instan.
               </p>
             </li>
             <li>
-              <strong>Jus Buah Segar</strong> - Rp 10.000
+              <div class="text-menu-header">
+                <strong>Jus Buah Segar</strong>
+                <span class="text-menu-price">Rp 10.000</span>
+              </div>
               <p>
-                Anak jus dari buah murni segar (Alpukat, Mangga, atau Jeruk)
+                Aneka jus dari buah murni segar (Alpukat, Mangga, atau Jeruk)
                 tanpa pemanis buatan.
               </p>
             </li>
             <li>
-              <strong>Es Cendol Dawet</strong> - Rp 12.000
+              <div class="text-menu-header">
+                <strong>Es Cendol Dawet</strong>
+                <span class="text-menu-price">Rp 12.000</span>
+              </div>
               <p>
                 Minuman manis tradisional dengan cendol kenyal, santan, dan gula
                 merah asli.
               </p>
             </li>
             <li>
-              <strong>Wedang Jahe Warm</strong> - Rp 8.000
+              <div class="text-menu-header">
+                <strong>Wedang Jahe Hangat</strong>
+                <span class="text-menu-price">Rp 8.000</span>
+              </div>
               <p>
                 Seduhan jahe hangat alami untuk menyegarkan dan menghangatkan
                 tubuh Anda.
@@ -135,7 +166,7 @@
         </div>
       </section>
 
-      <hr style="margin: 3rem 0; border: none; border-top: 1px solid #e5e7eb" />
+      <hr class="divider" />
 
       <!-- Section 2: Cara Pemesanan -->
       <section class="ordering-steps-section">
@@ -144,8 +175,8 @@
           <h2>Cara Pemesanan Makanan</h2>
           <p>
             Ikuti 5 langkah sederhana berikut untuk melakukan pemesanan makanan,
-            baik untuk makan di tempat (*dine-in*) maupun pesan antar
-            (*takeaway/delivery*).
+            baik untuk makan di tempat (<em>dine-in</em>) maupun pesan antar
+            (<em>takeaway/delivery</em>).
           </p>
         </div>
 
@@ -161,15 +192,15 @@
             <strong>Hubungi Pelayan atau Layanan Pesan Online</strong>
             <p>
               Untuk makan di tempat, sampaikan pilihan Anda ke pelayan. Untuk
-              pemesanan *takeaway* atau *delivery*, Anda dapat menghubungi kami
-              melalui WhatsApp atau menu kontak web.
+              pemesanan takeaway atau delivery, Anda dapat menghubungi kami
+              melalui WhatsApp atau formulir kontak website.
             </p>
           </li>
           <li>
             <strong>Konfirmasi Pesanan dan Catatan Khusus</strong>
             <p>
               Pastikan rincian pesanan sudah sesuai. Anda juga bisa menambahkan
-              catatan khusus seperti tingkat kepedasan atau alergi makanan.
+              catatan khusus seperti tingkat kepedasan atau preferensi lainnya.
             </p>
           </li>
           <li>
@@ -190,7 +221,7 @@
       </section>
 
       <!-- Address Section -->
-      <section class="address-section" style="margin-top: 4rem">
+      <section class="address-section">
         <div class="address-card">
           <div class="address-icon">
             <svg
